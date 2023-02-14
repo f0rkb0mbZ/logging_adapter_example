@@ -14,5 +14,23 @@ services:
       - log_drive:/app/logs
     depends_on: 
       - scary_java_app
+  promtail:
+    image: grafana/promtail:latest
+    volumes:
+     - ./promtail/promtail-config.yml:/etc/promtail/promtail-config.yml
+     - log_drive:/app/logs
+    depends_on:
+      - log_parser
+    command: -config.file=/etc/promtail/promtail-config.yml
+
+  loki:
+    image: grafana/loki:latest
+    ports:
+      - 3100:3100
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - 3000:3000
 volumes:
   log_drive:

@@ -1,0 +1,170 @@
+2023-02-14T21:51:27.664+05:30  INFO 68736 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.2 with PID 68736 (/Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app/build/classes/java/main started by snehangshub in /Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app)
+2023-02-14T21:51:27.665+05:30  INFO 68736 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-14T21:51:28.079+05:30  INFO 68736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-14T21:51:28.084+05:30  INFO 68736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-14T21:51:28.084+05:30  INFO 68736 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-14T21:51:28.135+05:30  INFO 68736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-14T21:51:28.135+05:30  INFO 68736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 448 ms
+2023-02-14T21:51:28.274+05:30  WARN 68736 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-02-14T21:51:28.276+05:30  INFO 68736 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-14T21:51:28.282+05:30  INFO 68736 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-14T21:51:28.293+05:30 ERROR 68736 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-02-14T21:52:57.488+05:30  INFO 68894 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.2 with PID 68894 (/Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app/build/classes/java/main started by snehangshub in /Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app)
+2023-02-14T21:52:57.490+05:30  INFO 68894 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-14T21:52:57.861+05:30  INFO 68894 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-14T21:52:57.865+05:30  INFO 68894 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-14T21:52:57.866+05:30  INFO 68894 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-14T21:52:57.909+05:30  INFO 68894 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-14T21:52:57.909+05:30  INFO 68894 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 398 ms
+2023-02-14T21:52:58.057+05:30  INFO 68894 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-14T21:52:58.062+05:30  INFO 68894 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 0.769 seconds (process running for 0.923)
+2023-02-14T21:53:20.677+05:30  INFO 68894 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-14T21:53:20.678+05:30  INFO 68894 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-14T21:53:20.683+05:30  INFO 68894 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-02-14T21:54:06.215+05:30  INFO 69007 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.2 with PID 69007 (/Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app/build/classes/java/main started by snehangshub in /Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app)
+2023-02-14T21:54:06.217+05:30  INFO 69007 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-14T21:54:06.592+05:30  INFO 69007 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-14T21:54:06.597+05:30  INFO 69007 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-14T21:54:06.598+05:30  INFO 69007 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-14T21:54:06.635+05:30  INFO 69007 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-14T21:54:06.635+05:30  INFO 69007 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 398 ms
+2023-02-14T21:54:06.774+05:30  INFO 69007 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-14T21:54:06.779+05:30  INFO 69007 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 0.766 seconds (process running for 0.913)
+2023-02-14T21:54:09.980+05:30  INFO 69007 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-14T21:54:09.980+05:30  INFO 69007 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-14T21:54:09.981+05:30  INFO 69007 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-14T22:00:50.845+05:30  INFO 69551 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.2 with PID 69551 (/Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app/build/classes/java/main started by snehangshub in /Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app)
+2023-02-14T22:00:50.847+05:30  INFO 69551 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-14T22:00:51.217+05:30  INFO 69551 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-14T22:00:51.221+05:30  INFO 69551 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-14T22:00:51.222+05:30  INFO 69551 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-14T22:00:51.258+05:30  INFO 69551 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-14T22:00:51.258+05:30  INFO 69551 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 392 ms
+2023-02-14T22:00:51.402+05:30  INFO 69551 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-14T22:00:51.406+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:00:51.407+05:30  INFO 69551 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 0.749 seconds (process running for 0.909)
+2023-02-14T22:01:06.411+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:01:21.416+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:01:36.423+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:01:51.531+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:02:06.522+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:02:21.524+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:02:36.527+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:02:51.529+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:03:06.531+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:03:21.536+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:19:21.220+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:19:36.227+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:19:51.228+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:32:02.920+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:32:17.933+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:32:32.938+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:32:47.943+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:33:02.947+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:33:17.951+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:33:32.960+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:33:47.966+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:34:02.970+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:34:17.975+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:34:32.982+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:34:47.990+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:35:02.996+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:35:18.000+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:35:33.001+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:35:48.006+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:36:03.010+05:30  INFO 69551 --- [scheduling-1] com.example.demo.DefaultService          : This is a info log
+2023-02-14T22:36:08.763+05:30  INFO 70198 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.2 with PID 70198 (/Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app/build/classes/java/main started by snehangshub in /Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app)
+2023-02-14T22:36:08.765+05:30  INFO 70198 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-14T22:36:09.141+05:30  INFO 70198 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-14T22:36:09.146+05:30  INFO 70198 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-14T22:36:09.146+05:30  INFO 70198 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-14T22:36:09.182+05:30  INFO 70198 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-14T22:36:09.182+05:30  INFO 70198 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 398 ms
+2023-02-14T22:36:09.335+05:30  INFO 70198 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-14T22:36:09.340+05:30  INFO 70198 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 1099376004
+2023-02-14T22:36:09.341+05:30  INFO 70198 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 0.761 seconds (process running for 0.922)
+2023-02-14T22:36:24.345+05:30  INFO 70198 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID -281715461
+2023-02-14T22:36:39.351+05:30  INFO 70198 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 2092666272
+2023-02-14T22:38:42.508+05:30  INFO 70391 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.2 with PID 70391 (/Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app/build/classes/java/main started by snehangshub in /Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app)
+2023-02-14T22:38:42.510+05:30  INFO 70391 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-14T22:38:42.897+05:30  INFO 70391 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-14T22:38:42.901+05:30  INFO 70391 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-14T22:38:42.901+05:30  INFO 70391 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-14T22:38:42.938+05:30  INFO 70391 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-14T22:38:42.938+05:30  INFO 70391 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 402 ms
+2023-02-14T22:38:43.091+05:30  INFO 70391 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-14T22:38:43.096+05:30  INFO 70391 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 1948107853
+2023-02-14T22:38:43.097+05:30  INFO 70391 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 0.768 seconds (process running for 0.922)
+2023-02-14T22:41:35.898+05:30  INFO 70609 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.2 with PID 70609 (/Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app/build/classes/java/main started by snehangshub in /Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app)
+2023-02-14T22:41:35.900+05:30  INFO 70609 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-14T22:41:36.280+05:30  INFO 70609 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-14T22:41:36.284+05:30  INFO 70609 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-14T22:41:36.285+05:30  INFO 70609 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-14T22:41:36.320+05:30  INFO 70609 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-14T22:41:36.321+05:30  INFO 70609 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 402 ms
+2023-02-14T22:41:36.477+05:30  INFO 70609 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-14T22:41:36.481+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 1416827243
+2023-02-14T22:41:36.481+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Request with ID 1416827243 processed successfully in 0.0956746568677097 seconds
+2023-02-14T22:41:36.481+05:30  INFO 70609 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 0.775 seconds (process running for 0.915)
+2023-02-14T22:41:51.486+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 1882423878
+2023-02-14T22:41:51.488+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Request with ID 1882423878 processed successfully in 1.9093320500556215 seconds
+2023-02-14T22:42:06.494+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 970279796
+2023-02-14T22:42:06.496+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Request with ID 970279796 processed successfully in 0.4001422918164177 seconds
+2023-02-14T22:42:21.501+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 1308923580
+2023-02-14T22:42:21.502+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Request with ID 1308923580 processed successfully in 2.3809259842776633 seconds
+2023-02-14T22:42:36.506+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 95091204
+2023-02-14T22:42:36.509+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Request with ID 95091204 processed successfully in 3.649995034342342 seconds
+2023-02-14T22:42:51.513+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 756307321
+2023-02-14T22:42:51.515+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Request with ID 756307321 processed successfully in 4.17072575766717 seconds
+2023-02-14T22:43:06.521+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 1534769824
+2023-02-14T22:43:06.523+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Request with ID 1534769824 processed successfully in 0.0916004823844413 seconds
+2023-02-14T22:43:21.524+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 1828157487
+2023-02-14T22:43:21.526+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Request with ID 1828157487 processed successfully in 4.644192832509414 seconds
+2023-02-14T22:43:36.531+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 1066519439
+2023-02-14T22:43:36.534+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Request with ID 1066519439 processed successfully in 2.0967609854678217 seconds
+2023-02-14T22:43:51.534+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 470664321
+2023-02-14T22:43:51.535+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Request with ID 470664321 processed successfully in 2.44449807755395 seconds
+2023-02-14T22:44:06.540+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 1689789089
+2023-02-14T22:44:06.542+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Request with ID 1689789089 processed successfully in 2.4507384823206575 seconds
+2023-02-14T22:44:21.546+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 1622203137
+2023-02-14T22:44:21.548+05:30  INFO 70609 --- [scheduling-1] com.example.demo.DefaultService          : Request with ID 1622203137 processed successfully in 2.743868116187478 seconds
+2023-02-14T22:44:25.491+05:30  INFO 70840 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.2 with PID 70840 (/Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app/build/classes/java/main started by snehangshub in /Users/snehangshub/Documents/Experiments/watchdog_log_converter/scary_java_app)
+2023-02-14T22:44:25.492+05:30  INFO 70840 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-14T22:44:25.889+05:30  INFO 70840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-14T22:44:25.894+05:30  INFO 70840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-14T22:44:25.894+05:30  INFO 70840 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-14T22:44:25.933+05:30  INFO 70840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-14T22:44:25.933+05:30  INFO 70840 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 420 ms
+2023-02-14T22:44:26.098+05:30  INFO 70840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-14T22:44:26.102+05:30  WARN 70840 --- [scheduling-1] com.example.demo.DefaultService          : Unable to connect to database at jdbc:mysql://localhost:3306/newdb, retrying in 5 seconds...
+2023-02-14T22:44:26.102+05:30 ERROR 70840 --- [scheduling-1] com.example.demo.DefaultService          : Failed to connect to database after 3 attempts
+2023-02-14T22:44:26.102+05:30  INFO 70840 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 1214137851
+2023-02-14T22:44:26.102+05:30  INFO 70840 --- [scheduling-1] com.example.demo.DefaultService          : Request with ID 1214137851 processed successfully in 1.995412585991469 seconds
+2023-02-14T22:44:26.103+05:30  INFO 70840 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 0.813 seconds (process running for 0.991)
+2023-02-14T22:44:31.107+05:30  WARN 70840 --- [scheduling-1] com.example.demo.DefaultService          : Unable to connect to database at jdbc:mysql://localhost:3306/newdb, retrying in 5 seconds...
+2023-02-14T22:44:31.108+05:30 ERROR 70840 --- [scheduling-1] com.example.demo.DefaultService          : Failed to connect to database after 3 attempts
+2023-02-14T22:44:36.110+05:30  WARN 70840 --- [scheduling-1] com.example.demo.DefaultService          : Unable to connect to database at jdbc:mysql://localhost:3306/newdb, retrying in 5 seconds...
+2023-02-14T22:44:36.111+05:30 ERROR 70840 --- [scheduling-1] com.example.demo.DefaultService          : Failed to connect to database after 3 attempts
+2023-02-14T22:44:41.106+05:30  INFO 70840 --- [scheduling-1] com.example.demo.DefaultService          : Processing request with ID 912683620
+2023-02-14T22:44:41.108+05:30  INFO 70840 --- [scheduling-1] com.example.demo.DefaultService          : Request with ID 912683620 processed successfully in 4.4067777433716975 seconds
+2023-02-14T22:44:41.112+05:30  WARN 70840 --- [scheduling-1] com.example.demo.DefaultService          : Unable to connect to database at jdbc:mysql://localhost:3306/newdb, retrying in 5 seconds...
+2023-02-14T22:44:41.113+05:30 ERROR 70840 --- [scheduling-1] com.example.demo.DefaultService          : Failed to connect to database after 3 attempts
+2023-02-14T22:44:46.116+05:30  WARN 70840 --- [scheduling-1] com.example.demo.DefaultService          : Unable to connect to database at jdbc:mysql://localhost:3306/newdb, retrying in 5 seconds...
+2023-02-14T22:44:46.117+05:30 ERROR 70840 --- [scheduling-1] com.example.demo.DefaultService          : Failed to connect to database after 3 attempts
+2023-02-14T22:44:51.123+05:30  WARN 70840 --- [scheduling-1] com.example.demo.DefaultService          : Unable to connect to database at jdbc:mysql://localhost:3306/newdb, retrying in 5 seconds...
+2023-02-14T22:44:51.124+05:30 ERROR 70840 --- [scheduling-1] com.example.demo.DefaultService          : Failed to connect to database after 3 attempts
